@@ -1,0 +1,139 @@
+body {
+    background-color: #f1f2f6;
+}
+
+.main img{
+    width: 240px;
+    display: block;
+    margin: auto;
+}   
+
+.box {
+    box-shadow: 10px 10px 10px #ccd0d5;
+    background-color: #fefefe;
+
+    margin: auto;
+    border-radius: 9px;
+    display: block;
+    width: 396px;
+    height: 400px;
+   
+}
+
+.input-email {
+
+    width: 370px;
+    border-radius: 5px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    border: 1px solid #ccd0d5;
+}
+
+.input-email::placeholder {
+    padding-left: 9px;
+    font-size: 14px;
+}
+
+
+
+
+.box-2 {
+    margin-top: 25px;
+}
+
+
+.password {
+
+    width: 370px;
+    border-radius: 5px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    border: 1px solid #ccd0d5;
+}
+
+.password::placeholder {
+    padding-left: 9px;
+    font-size: 14px;
+}
+
+.box-3 {
+    margin-top: 20px;
+}
+
+.button {
+    cursor: pointer;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 900;
+    font-size: 18px;
+    width: 370px;
+    border-radius: 5px;
+    height: 40px;
+    margin: auto;
+    display: block;
+    background-color: #166fe5;
+    border: 0;
+    color: white;
+}
+
+.button:hover {
+    background-color: #1e77ec;
+}
+
+.heading {
+    padding: 19px;
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 450;
+    font-size: 16px;
+}
+
+.box-4 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+a {
+    color: #166fe5;
+    font-size: 14px;
+
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 250;
+
+}
+
+a:hover {
+
+    text-decoration: underline;
+}
+
+hr {
+    margin-top: 18px;
+    width: 360px;
+}
+
+.box-5 {
+    text-align: center;
+    margin-top: 17px;
+}
+
+.new-button {
+
+    height: 50px;
+    width: 170px;
+    color: white;
+    background-color: #36a21b;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+
+}
+
+.new-button:hover {
+    background-color: #2a7a15;
+    cursor: pointer;
+}
